@@ -131,6 +131,7 @@ mix.js('resources/js/laravel-user-management.js', 'public/js/');
 mix.copy('node_modules/boxicons/fonts/*', 'public/assets/vendor/fonts/boxicons');
 mix.copy('node_modules/@fortawesome/fontawesome-free/webfonts/*', 'public/assets/vendor/fonts/fontawesome');
 mix.copy('node_modules/katex/dist/fonts/*', 'public/assets/vendor/libs/quill/fonts');
+mix.js('resources/js/app.js', 'public/js/alpine.js');
 
 mix.version();
 
