@@ -21,15 +21,11 @@ class User extends Authenticatable
     use HasRoles;
 
   /**
-     * The attributes that are mass assignable.
+     * The attributes that are NOT mass assignable.
      *
      * @var string[]
      */
-    protected $fillable = [
-        'name',
-        'email',
-        'password',
-    ];
+    protected $guarded  = [];
 
     /**
      * The attributes that should be hidden for serialization.
