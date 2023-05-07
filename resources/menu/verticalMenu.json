@@ -11,6 +11,12 @@
       "icon": "menu-icon tf-icons bx bx-file",
       "name": "Page 2",
       "slug": "pages-page-2"
+    },
+    {
+      "url": "/user-management",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "name": "User Management",
+      "slug": "user-management"
     }
   ]
 }
